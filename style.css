@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000vw;
+    height: 100vh;
+    align-content: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1{
+    font-size: 20rem;
+    color: red;
+}
+h3{
+    align-content: center;
+}
+img, video, iframe{
+    width: 40rem;
+    height: 40rem;
+}
+li{
+    list-style: none;
+}
+.welcome{
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+
+button{
+    border: solid 10px black;
+    border-radius: 10ch;
+}
+#meme-gallery{
+    display: flex;
+}
+#cat-meme ul, #other-meme-v, #other-meme-p{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10rem;
+    overflow: scroll;
+    max-height: 500px;
+}
+
+.back-top{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
