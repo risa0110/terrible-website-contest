@@ -12,3 +12,14 @@ function updateBackground() {
       updateBackground();
     }, 100); 
     updateBackground();
+
+    const checkbox = document.getElementById('audio-toggle');
+  const audio = document.getElementById('bg-audio');
+
+  checkbox.addEventListener('change', function () {
+    if (this.checked) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  });

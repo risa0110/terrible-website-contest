@@ -9,6 +9,8 @@ The structure and idea of this project were inspired by the following YouTube co
 
 ### 🖼 Resources and Media Credits
 -**cat-meme images**: https://www.memesstyle.com/   
+-**audio**: https://commons.nicovideo.jp/works/nc177210  
+
 
 ## Copyright Notice
 All copyrights and trademarks belong to their respective owners. This site makes use of copyrighted material for non-commercial, commentary, and educational purposes under fair use guidelines.  
